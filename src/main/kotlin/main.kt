@@ -86,11 +86,8 @@ fun main() {
     service.addMessage(2, chat2, msg3)
 
     service.print()
-    //service.delete(1, msg)
-    //service.print()
-    service.edit(1, 1,  msg2, "Что делаешь?")
+    service.edit(1, 1,  msg2, "Hello")
     service.print()
-    //service.removeChat(1)
     println(service.getUnreadChatsCount(1, 1))
     println(service.getChats(1))
     println(service.getListOfMessages(1, 1, 1, 2))
